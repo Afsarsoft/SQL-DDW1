@@ -16,9 +16,9 @@ SELECT count(1)
 FROM ddw1DW.DimTime;
 GO
 
--- SELECT *
--- FROM ddw1DW.DimTime;
--- GO
+SELECT *
+FROM ddw1DW.DimTime;
+GO
 
 SELECT *
 FROM ddw1DW.DimTime
