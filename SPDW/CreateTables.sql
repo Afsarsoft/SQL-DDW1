@@ -137,7 +137,7 @@ BEGIN
         ProductID TINYINT NOT NULL,
         TimeKey INT NOT NULL,
         TotalAmount MONEY NOT NULL,
-        CONSTRAINT PK_FactSales_OrderID_CustomerID_ProductID_TimeKey PRIMARY KEY CLUSTERED (OrderID, CustomerID, ProductID, TimeKey)
+        CONSTRAINT PK_FactSales_OrderID PRIMARY KEY CLUSTERED (OrderID)
     );
 
     SET @Message = 'Completed CREATE TABLE ddw1DW.FactSales.';
